@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 
-st.title("📚 Book Viewer")
+st.title("📚 Books Viewer")
 
 # Upload JSON file
 uploaded_file = st.file_uploader("Upload your EMIS JSON file", type="json")
